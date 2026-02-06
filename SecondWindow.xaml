@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="SecondWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Нажми на меня, брух!" 
+                HorizontalAlignment="Left"
+                Margin="387,230,0,0"
+                Background="AliceBlue"
+                VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
