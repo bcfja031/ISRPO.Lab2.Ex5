@@ -20,5 +20,12 @@ namespace ISRPO.Lab2.Ex5
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            SecondWindow secondWindow = new SecondWindow();
+            secondWindow.Show();
+            this.Close();
+        }
     }
 }
